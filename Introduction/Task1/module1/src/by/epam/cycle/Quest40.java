@@ -16,12 +16,6 @@ public class Quest40 {
 
         System.out.println(quest40.getValidNumbersList(999));
 
-        x instanceof y;
-
-    }
-
-    private static void doSmth(){
-        System.out.println("or");
     }
 
     private List<Integer> getValidNumbersList(int n){
