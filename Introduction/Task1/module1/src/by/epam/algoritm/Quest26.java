@@ -1,5 +1,7 @@
 package by.epam.algoritm;
 
+/*Найти площадь треугольника, две стороны которого равны а и b, а угол между этими сторонами у.*/
+
 public class Quest26 {
     public static void main(String[] args) {
         Quest26 quest26 = new Quest26();

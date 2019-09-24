@@ -1,5 +1,7 @@
 package by.epam.algoritm;
 
+/*Составить программу перевода радианной меры угла в градусы, минуты и секунды.*/
+
 public class Quest28 {
     public static void main(String[] args) {
         int radian = 1;
@@ -14,8 +16,8 @@ public class Quest28 {
         double min = ((grade % 1) * 60);
         double sec = Math.round((min % 1) * 60);
 
-        System.out.println(radian + " радиан - это " + (int)grade + " градусов " + (int)min + " минут и "
-        + (int)sec + " секунд");
+        System.out.println(radian + " радиан - это " + (int)grade + " градусов "
+                + (int)min + " минут и " + (int)sec + " секунд");
     }
 
 }

@@ -3,14 +3,15 @@ package by.epam.algoritm;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.Stream;
+
+/* Даны натуральные числа М и N. Вывести старшую цифру дробной части и младшую цифру целой части числа M/N.*/
 
 public class Quest35 {
     public static void main(String[] args) {
         int m = 453;
         int n = 17;
         Quest35 quest35 = new Quest35();
-        quest35.printTwoNumbers(m,n);
+        quest35.printTwoNumbers(m, n);
     }
 
     private void printTwoNumbers(int m, int n){

@@ -5,9 +5,11 @@ import by.epam.algoritm.Quest35;
 import java.util.ArrayList;
 import java.util.List;
 
+/* Получить все числа, не превышающие заданного числа N, которые делятся без остатка на все свои цифры.*/
+
 public class Quest40 {
 
-    Quest35 quest35 = new Quest35();
+    private Quest35 quest35 = new Quest35();
 
     public static void main(String[] args) {
         Quest40 quest40 = new Quest40();
@@ -33,7 +35,7 @@ public class Quest40 {
     private boolean isNumberValid(int a){
         List<Integer> splitNumber = quest35.splitNumberToNumerals(a);
         boolean isValid = true;
-        for(int i = 0; i < splitNumber.size(); i++){
+        for (int i = 0; i < splitNumber.size(); i++) {
             if(splitNumber.get(i) != 0) {
                 if (a % splitNumber.get(i) != 0) {
                     isValid = false;

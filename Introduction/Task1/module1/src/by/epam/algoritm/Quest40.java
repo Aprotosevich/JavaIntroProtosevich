@@ -1,5 +1,7 @@
 package by.epam.algoritm;
 
+/* Дано значение х. Получить значения  -2х + 3х2 - 4х3  и 1 + 2х + 3х2 + 4х3 . Позаботьтесь об экономии операций.*/
+
 public class Quest40 {
     public static void main(String[] args) {
         int x = 2;

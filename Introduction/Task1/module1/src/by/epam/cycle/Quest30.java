@@ -1,5 +1,7 @@
 package by.epam.cycle;
 
+/*Написать программу, переводящую римские цифры в арабские.*/
+
 public class Quest30 {
     public static void main(String[] args) {
         Quest30 quest30 = new Quest30();

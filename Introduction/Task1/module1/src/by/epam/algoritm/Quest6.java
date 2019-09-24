@@ -1,6 +1,8 @@
 package by.epam.algoritm;
 
 public class Quest6 {
+    /*Написать код для решения задачи. В n малых бидонах 80 л молока.
+    Сколько литров молока в m больших бидонах, если в каждом большом бидоне на 12 л. больше, чем в малом?*/
     public static void main(String[] args) {
         Quest6 quest6 = new Quest6();
         System.out.println(quest6.getMBuckets(1));

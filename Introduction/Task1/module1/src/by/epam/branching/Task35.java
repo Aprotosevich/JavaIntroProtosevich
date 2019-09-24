@@ -1,7 +1,9 @@
 package by.epam.branching;
 
+/* Вычислить число и месяц в невисокосном году по номеру дня. */
+
 public class Task35 {
-    /* Вычислить число и месяц в невисокосном году по номеру дня. */
+
     public static void main(String[] args) {
         Task35 task35 = new Task35();
         int a = 136;

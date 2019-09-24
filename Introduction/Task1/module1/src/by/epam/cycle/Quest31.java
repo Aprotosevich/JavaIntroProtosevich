@@ -3,14 +3,17 @@ package by.epam.cycle;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/* Компьютер генерирует пять чисел в диапазоне от 1 до 15 включительно. Человек пытается их угадать.
+         Программа должна выводить угаданные и неугаданные числа из тех, что сгенерировала программа,
+         а также ошибочные числа пользователя.*/
+
 public class Quest31 {
 
-    BufferedReader reader;
+    private BufferedReader reader;
 
     public static void main(String[] args) {
         Quest31 quest31 = new Quest31();
@@ -92,8 +95,6 @@ public class Quest31 {
         }
         return list;
     }
-
-
 
     private List<Integer> getIntegerArray(){
         List<Integer> array = new ArrayList<>();

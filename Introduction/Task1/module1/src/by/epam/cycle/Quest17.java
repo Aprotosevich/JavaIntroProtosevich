@@ -3,6 +3,8 @@ package by.epam.cycle;
 import java.util.ArrayList;
 import java.util.List;
 
+/*Даны действительное (а) и натуральное (n). вычислить: a(a+1)...(a+n-1)*/
+
 public class Quest17 {
     public static void main(String[] args) {
         Quest17 quest17 = new Quest17();

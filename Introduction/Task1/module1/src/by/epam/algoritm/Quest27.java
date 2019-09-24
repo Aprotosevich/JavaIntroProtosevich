@@ -1,5 +1,8 @@
 package by.epam.algoritm;
 
+/*Дано значение a. Не используя никаких функций и никаких операций,
+        кроме умножения, получить значение а8 за три операции и  а10 за четыре операции.*/
+
 public class Quest27 {
     public static void main(String[] args) {
         Quest27 quest27 = new Quest27();
@@ -9,15 +12,15 @@ public class Quest27 {
     }
 
     private int getEightDegree(int a){
-        int bb = a * a;
-        int bbb = bb * bb;
-        return bbb * bbb;
+        int b2 = a * a;
+        int b3 = b2 * b2;
+        return b3 * b3;
     }
 
     private int getTenDegree(int a){
-        int bb = a * a; // 2
-        int bbb = bb * bb; // 4
-        int bbbb = bbb * bbb; // 8
-        return bbbb * bb;
+        int b2 = a * a;
+        int b3 = b2 * b2;
+        int b4 = b3 * b3;
+        return b4 * b2;
     }
 }

@@ -1,7 +1,9 @@
 package by.epam.branching;
 
+/*Вычислить значение функции:*/
+
 public class Task40 {
-    /*Вычислить значение функции:*/
+
     public static void main(String[] args) {
         Task40 task40 = new Task40();
         int x = 18;

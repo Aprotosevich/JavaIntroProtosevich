@@ -1,5 +1,8 @@
 package by.epam.cycle;
 
+/*Два двузначных числа, записанных одно за другим , образуют четырёхзначное число,
+        которое делится на их произведение. Найти эти числа.*/
+
 public class Quest36 {
     public static void main(String[] args) {
         Quest36 quest36 = new Quest36();

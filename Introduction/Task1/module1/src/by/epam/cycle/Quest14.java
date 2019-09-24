@@ -3,6 +3,8 @@ package by.epam.cycle;
 import java.util.ArrayList;
 import java.util.List;
 
+ /*Дано натуральное n. вычислить: 1 + 1/2 + 1/3 + 1/4 + ... + 1/n.*/
+
 public class Quest14 {
     public static void main(String[] args) {
         Quest14 quest14 = new Quest14();
@@ -10,7 +12,6 @@ public class Quest14 {
         int n = 25;
 
         System.out.println(String.format("Sum: %.4f", quest14.getSumFromDoubleList(quest14.getArray(n))));
-
     }
 
     private double getSumFromDoubleList(List<Double> list){

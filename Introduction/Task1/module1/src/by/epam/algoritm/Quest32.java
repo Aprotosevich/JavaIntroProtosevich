@@ -1,19 +1,22 @@
 package by.epam.algoritm;
 
+/* Текущее показание электронных часов: т ч (0 ≤ т ≤23) п мин (0 ≤ п ≤59) к с (0 ≤к ≤59).
+         Какое время будут показывать часы через р ч q мин r с?*/
+
 public class Quest32 {
     public static void main(String[] args) {
         Quest32 quest32 = new Quest32();
-        oClock oClock = new oClock();
+        Clock clock = new Clock();
 
-        oClock.printTime();
-        oClock.waitFor(23,59,50);
-        oClock.printTime();
-        oClock.waitFor(3,0,20);
-        oClock.printTime();
+        clock.printTime();
+        clock.waitFor(23,59,50);
+        clock.printTime();
+        clock.waitFor(3,0,20);
+        clock.printTime();
     }
 
 
-    private static class oClock{
+    private static class Clock {
 
         private int sec = 0;
         private int min = 0;

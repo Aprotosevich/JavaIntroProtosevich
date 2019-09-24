@@ -4,8 +4,11 @@ import by.epam.algoritm.Quest35;
 
 import java.util.List;
 
+/* Для заданного натурального числа определить, образуют ли его цифры арифметическую прогрессию.
+         Предполагается, что в числе не менее трёх цифр. Например: 1357, 963.*/
+
 public class Quest38 {
-    Quest35 quest35 = new Quest35(); // from by.epam.algoritm;
+    private Quest35 quest35 = new Quest35(); // from by.epam.algoritm;
 
     public static void main(String[] args) {
         Quest38 quest38 = new Quest38();

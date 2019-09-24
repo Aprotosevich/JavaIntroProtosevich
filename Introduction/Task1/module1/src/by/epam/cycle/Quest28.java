@@ -1,15 +1,19 @@
 package by.epam.cycle;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Quest28 {
-    int x = 0;
-    int y = 0;
-    String operate = "";
+/* Написать программу, в которой вводятся два операнда Х и Y и знак операции (+, –, /, *). Вычислить результат Z
+         в зависимости от знака. Предусмотреть реакции на возможный неверный знак операции, а также
+         на ввод Y=0 при делении. Организовать возможность многократных вычислений без перезагрузки программа
+         (т.е. построить цикл). В качестве символа прекращения вычислений принять ‘0’.*/
 
-    BufferedReader reader;
+public class Quest28 {
+    private int x = 0;
+    private int y = 0;
+    private String operate = "";
+
+    private BufferedReader reader;
 
     public static void main(String[] args) throws Exception {
         Quest28 quest28 = new Quest28();

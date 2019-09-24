@@ -5,6 +5,9 @@ import java.io.InputStreamReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/*Проверить введенную пользователем строку на наличие недопустимых символов. В качестве первого символа допустимы
+        только буквы и знак подчеркивания. Остальные символы могут быть буквами, цифрами и знаком подчеркивания.*/
+
 public class Quest32 {
     public static void main(String[] args) throws Exception {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

@@ -1,8 +1,10 @@
 package by.epam.cycle;
 
-import java.io.BufferedReader;
 import java.util.ArrayList;
 import java.util.List;
+
+/*Вводится натуральное число. Найти сумму четных цифр, входящих в его состав.
+        Преобразовать его в другое число, цифры которого будут следовать в обратном порядке по сравнению с введенным числом.*/
 
 public class Quest24 {
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package by.epam.algoritm;
 
+/*Найти площадь кольца, внутренний радиус которого равен r, а внешний — R (R> r).*/
+
 public class Quest23 {
     public static void main(String[] args) {
         Quest23 quest23 = new Quest23();

@@ -1,5 +1,7 @@
 package by.epam.algoritm;
 
+/*Дана величина А, выражающая объем информации в байтах. Перевести А в более крупные единицы измерения информации.*/
+
 public class Quest34 {
     public static void main(String[] args) {
         byte a = 120;

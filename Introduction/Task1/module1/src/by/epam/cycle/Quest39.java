@@ -6,9 +6,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/* В трехзначном числе зачеркнули старшую цифру. Когда полученное число умножили на 7,
+         то получили исходное число.Найти это число.*/
+
 public class Quest39 {
 
-    Quest35 quest35 = new Quest35();
+    private Quest35 quest35 = new Quest35();
 
     public static void main(String[] args) {
         Quest39 quest39 = new Quest39();

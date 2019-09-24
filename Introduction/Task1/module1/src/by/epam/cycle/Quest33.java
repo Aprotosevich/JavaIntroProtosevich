@@ -3,6 +3,8 @@ package by.epam.cycle;
 import java.util.HashMap;
 import java.util.Map;
 
+/* Найдите наибольшую цифру данного натурального числа.*/
+
 public class Quest33 {
     public static void main(String[] args) {
         Quest33 quest33 = new Quest33();

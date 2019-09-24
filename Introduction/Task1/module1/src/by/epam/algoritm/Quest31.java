@@ -1,5 +1,8 @@
 package by.epam.algoritm;
 
+/* Составить программу для вычисления пути, пройденного лодкой, если ее скорость в стоячей воде v км/ч,
+         скорость течения реки v1 км/ч, время движения по озеру t1 ч, а против течения реки — t2 ч.*/
+
 public class Quest31 {
     public static void main(String[] args) {
         Quest31 quest31 = new Quest31();

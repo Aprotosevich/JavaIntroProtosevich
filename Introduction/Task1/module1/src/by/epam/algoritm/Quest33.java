@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/*Ввести любой символ и определить его порядковый номер, а также указать предыдущий и последующий символы.*/
+
 public class Quest33 {
 
     public static void main(String[] args) throws Exception {

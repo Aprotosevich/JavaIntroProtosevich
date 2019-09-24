@@ -3,6 +3,9 @@ package by.epam.cycle;
 import java.util.ArrayList;
 import java.util.List;
 
+/* Для каждого натурального числа в промежутке от m до n вывести все делители,
+         кроме единицы и самого числа. m и n вводятся с клавиатуры.*/
+
 public class Quest27 {
     public static void main(String[] args) {
         Quest27 quest27 = new Quest27();

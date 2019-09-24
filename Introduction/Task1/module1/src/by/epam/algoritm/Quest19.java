@@ -1,7 +1,7 @@
 package by.epam.algoritm;
 
-import java.lang.management.MemoryType;
-import java.security.SecureRandom;
+/* Дана сторона равностороннего треугольника.
+Найти площадь этого треугольника, его высоту, радиусы вписанной и описанной окружностей.*/
 
 public class Quest19 {
     public static void main(String[] args) {

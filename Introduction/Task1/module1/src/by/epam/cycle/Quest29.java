@@ -5,6 +5,8 @@ import by.epam.algoritm.Quest35;
 import java.util.ArrayList;
 import java.util.List;
 
+/* Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.*/
+
 public class Quest29 {
     public static void main(String[] args) {
         Quest29 quest29 = new Quest29();
