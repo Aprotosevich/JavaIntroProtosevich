@@ -8,6 +8,7 @@ public class Task07 {
     private MatrixView matrixView = new MatrixView();
 
     /*Дан двухмерный массив 5×5. Найти сумму модулей отрицательных нечетных элементов.*/
+
     public static void main(String[] args) {
         Task07 task07 = new Task07();
         int[][] matrix = new int[5][5];

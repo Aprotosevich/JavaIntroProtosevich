@@ -15,6 +15,14 @@ public class MatrixCreator {
         }
     }
 
+    public void fillMatrixWithRandomExclZero (int fromOneTill, int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                matrix[i][j] = (int)(Math.random()*fromOneTill + 1);
+            }
+        }
+    }
+
     public void fillMatrixRandomInclNegative (int fromZeroTill, int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {

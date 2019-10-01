@@ -8,6 +8,7 @@ public class Task33 {
     private MatrixCreator matrixCreator = new MatrixCreator();
     private MatrixView matrixView = new MatrixView();
 
+
     public static void main(String[] args) {
         Task33 task33 = new Task33();
         int[][] matrix = new int[7][7];
